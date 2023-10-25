@@ -20,7 +20,7 @@ void fetchMovieInfo(String apiUrl) async {
     String releaseDate = movieData['release_date'];
 
     print('Titulo: $title');
-    print('Descripción: $overview');
+    print('Descripcion: $overview');
     print('Fecha de lanzamiento: $releaseDate');
 
   } else {
